@@ -1,22 +1,3 @@
-div {
-  border: 2px solid red;
-}
-.uno {
-  height: 100px;
-  width: 100px;
-  padding: 100px;
-  margin: 20px;
-  display: block;
-}
-.dos {
-  height: 100px;
-  width: 100px;
-  padding: 100px;
-  margin: 20px;
+.list {
   
-.tres {
-  height: 100px;
-  width: 100px;
-  padding: 100px;
-  margin: 20px;
 }
