@@ -1,0 +1,19 @@
+html {
+  font-size: 1rem;
+}
+.smiley {
+  width: 3.125rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  text-align: center;
+  font-family: "courier new";
+  font-weight: bold;
+  font-size: 1.563rem;
+  color: #424242;
+  background: #ffcc00;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
