@@ -1,1 +1,27 @@
-
+.container1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.container2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: solid 3px violet;
+}
+.news-1 {
+  border: solid 3px violet;
+  box-sizing: border-box;
+}
+.news-2 {
+  width: 50%;
+  border: solid 3px violet;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.news-3 {
+  width: 50%;
+  border: solid 3px violet;
+}
