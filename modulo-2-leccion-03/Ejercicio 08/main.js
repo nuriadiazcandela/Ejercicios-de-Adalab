@@ -1,6 +1,6 @@
 "use strict";
 
-const currentYear = 34;
+const currentYear = 3;
 const yearsSinceLeapYear = currentYear % 4;
 let nextLeapYear = "";
 

@@ -7,4 +7,4 @@ function parImpar(num) {
     return false;
   }
 }
-console.log(parImpar(3));
+console.log(parImpar(4));
