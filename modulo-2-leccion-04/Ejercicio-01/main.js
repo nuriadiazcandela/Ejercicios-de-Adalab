@@ -5,3 +5,4 @@ function mult(a, b) {
 }
 
 console.log(mult(5, 6));
+
