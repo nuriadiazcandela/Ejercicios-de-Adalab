@@ -5,10 +5,6 @@ adalaber1.name = "Susana";
 adalaber1.age = 34;
 adalaber1.profesion = "periodista";
 
-adalaber1.speak = (phrase) => `Yo digo: ${phrase}`;
-
-console.log(adalaber1.speak("Hola"));
-
 adalaber1.run = function (phrase) {
   return phrase;
 };

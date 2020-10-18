@@ -12,12 +12,12 @@ const adalaber2 = {
 };
 
 adalaber1.showBio = function () {
-  return "Mi nombre es" + this.name + ", tengo" + this.age + "años y soy" + this.job;
+  return "Mi nombre es " + this.name + ", tengo " + this.age + " años y soy " + this.job;
 };
 console.log(adalaber1.showBio());
 
 adalaber2.showBio = function () {
-  return "Mi nombre es" + this.name + ", tengo" + this.age + "años y soy" + this.job;
+  return "Mi nombre es " + this.name + ", tengo " + this.age + " años y soy " + this.job;
 };
 
 console.log(adalaber2.showBio());

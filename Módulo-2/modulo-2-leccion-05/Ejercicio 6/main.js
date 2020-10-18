@@ -3,9 +3,9 @@
 const inputText = document.querySelector(".text");
 
 function write(event) {
-    const text = document.querySelector(".paragraph")
-    let move = event.currentTarget.value;
-    text.innerHTML = move;
+    const paragraph = document.querySelector(".paragraph")
+    let fill = event.currentTarget.value;
+    paragraph.innerHTML = fill;
 }
 
 inputText.addEventListener ("keyup", write);
