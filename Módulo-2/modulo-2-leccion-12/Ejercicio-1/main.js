@@ -1,9 +1,11 @@
 "use strict";
 
 const numbers = [1, 2, 3];
+const list = document.querySelector(".list");
 
-const numbersList = document.createElement("li");
-const numberContent = document.createTextNode(numbers);
-
-numbersList.appendChild(numberContent);
-console.log(numbersList);
+for (const eachNumbers of numbers) {
+  const numbersList = document.createElement("li");
+  list.appendChild(numbersList);
+  const numberContent = document.createTextNode(eachNumbers);
+  numbersList.appendChild(numberContent);
+}
