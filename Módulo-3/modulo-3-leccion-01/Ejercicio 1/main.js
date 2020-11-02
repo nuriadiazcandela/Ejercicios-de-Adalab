@@ -1,14 +1,14 @@
 'use strict';
 
 class Square {
-  perimeter(result) {
-    return result * 4;
+  perimeter(side) {
+    return side * 4;
   }
-  area() {
-    console.log(math.pow(9, 2));
+  area(side) {
+    return Math.pow(side, 2);
   }
 }
 
-const side = new Square();
-side.perimeter();
-side.area();
+const oneSquare = new Square();
+console.log(oneSquare.perimeter(9));
+console.log(oneSquare.area(9));

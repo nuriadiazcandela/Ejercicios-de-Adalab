@@ -1,8 +1,8 @@
 import foto from './images.jpg';
-import './App.css';
+import './App.scss';
 
-function App() {
-  return (
+function render() {
+  const ResultHtml = (
     <div className="Mediacard">
       <header className="Card-header">
         <img src={foto} className="App-card" alt="foto" />
@@ -27,6 +27,7 @@ function App() {
       </main>
     </div>
   );
+  return ResultHtml;
 }
 
-export default App;
+export default render;
