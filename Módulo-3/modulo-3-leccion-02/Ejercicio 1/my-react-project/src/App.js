@@ -1,11 +1,11 @@
-import foto from './images.jpg';
-import './App.scss';
+import logo from './images.jpg';
+import './App.css';
 
-function render() {
-  const ResultHtml = (
+function App() {
+  return (
     <div className="Mediacard">
       <header className="Card-header">
-        <img src={foto} className="App-card" alt="foto" />
+        <img src={logo} className="App-card" alt="foto" />
         <div>
           <h1 className="Card-h1">Alex Guerrero</h1>
           <p>Domingo, 1 de noviembre de 2020</p>
@@ -23,11 +23,11 @@ function render() {
           benemeritaar condemor diodeno pecador condemor te va a hasé pupitaa me cago en tus muelas
           diodenoo de la pradera tiene musho peligro.
         </p>
-        <p className="heart"> ❤︎</p>
+        <p>Leer más...</p>
+        <p className="heart">37 ❤︎</p>
       </main>
     </div>
   );
-  return ResultHtml;
 }
 
-export default render;
+export default App;
