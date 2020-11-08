@@ -1,7 +1,11 @@
-import './App.scss';
+import React from 'react';
+import ItemList from './components/ItemList';
+import './stylesheet/App.scss';
 
-function App() {
-  return <div className="App"></div>;
+class App extends React.Component {
+  render() {
+    return <ItemList></ItemList>;
+  }
 }
 
 export default App;
