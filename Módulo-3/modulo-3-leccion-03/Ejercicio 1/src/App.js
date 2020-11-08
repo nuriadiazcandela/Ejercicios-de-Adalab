@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './images.jpg';
 import './App.css';
+import './components/MediaCard';
 
 class App extends React.Component {
   constructor(props) {
