@@ -4,7 +4,7 @@ import Item from './Item';
 const arrayOfItems = [
   {
     name: 'Cereales con chocolate',
-    description: 'Cereales rellenos de chocolate',
+    // description: 'Cereales rellenos de chocolate', //para probar los proptypes Ejercicio 3
     quantity: 2,
     category: 'Cereales',
     price: 5,
@@ -27,17 +27,18 @@ const arrayOfItems = [
 
 let emptyArray = [];
 let priceItems = [];
-priceItems = arrayOfItems.filter((itemPrice) => itemPrice < 10);
+priceItems = arrayOfItems.filter((itemPrice) => itemPrice.price < 10); //filter es como un if
 
+//map es para recorrer
 emptyArray = priceItems.map((itemInfo, i) => (
   <li key={i}>
-    <Item>
+    <Item
       name={itemInfo.name}
       description={itemInfo.description}
       quantity={itemInfo.quantity}
       category={itemInfo.category}
       price={itemInfo.price}
-    </Item>
+    />
   </li>
 ));
 
@@ -46,4 +47,5 @@ class ItemList extends React.Component {
     return <ul className="item-list">{emptyArray}</ul>;
   }
 }
+
 export default ItemList;

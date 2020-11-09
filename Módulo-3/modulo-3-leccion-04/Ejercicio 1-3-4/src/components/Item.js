@@ -1,4 +1,5 @@
 import React from 'react';
+import './App';
 import '../stylesheet/App.scss';
 import PropTypes from 'prop-types';
 
@@ -17,6 +18,7 @@ class Item extends React.Component {
     );
   }
 }
+
 Item.defaultProps = {
   description: 'No hay descripción del producto',
 };
