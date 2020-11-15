@@ -19,7 +19,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <input type="text" onKeyUp={this.handleKeyup} />
-        <p>{this.state.inputText}</p>
+        <p className="result">{this.state.inputText}</p>
       </div>
     );
   }
