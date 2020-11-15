@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './stylesheet/index.scss';
-import MurrayList from './components/MurrayList';
+import Form from './components/Form';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MurrayList />
+    <Form />
   </React.StrictMode>,
   document.getElementById('root')
 );
