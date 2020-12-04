@@ -1,4 +1,4 @@
-# Ejercicios-de-Adalab
+# Ejercicios de Adalab
 
 Los ejercicios de Adalab se distribuyen en 3 módulos:
 
