@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
-const name = "Irene";
-console.log(`Hola ` + name + `, encantada de conocerte`);
+const nameAdalaber = 'Irene';
+console.log(`Hola ` + nameAdalaber + `, encantada de conocerte`);
