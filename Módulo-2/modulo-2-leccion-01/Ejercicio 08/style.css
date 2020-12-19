@@ -3,6 +3,6 @@
   border: 2px solid red;
   background-color: black;
 }
-.button-two {
-  background-color: gray;
+.opacity {
+  opacity: 0.8;
 }
