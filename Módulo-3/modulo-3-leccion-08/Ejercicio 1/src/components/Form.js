@@ -1,7 +1,5 @@
 import React from 'react';
-import App from './App';
-import Card from './Card';
-import PropTypes from 'prop-types';
+
 
 class Form extends React.Component {
   render() {

@@ -6,21 +6,19 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: '',
-      description: '',
-      language: '',
+      user: {},
     };
 
-    this.handleChange = this.handleChange.bind(this);
+    this.handleFormInfo = this.handleFormInfo.bind(this);
   }
 
-  handleChange(event) {
-    this.setState({ name: event.target.value });
+  handleFormInfo(data) {
+    this.setState({ user: data });
   }
 
   render() {
     return (
-      <div>
+      <div className="App">
         <Form></Form>
       </div>
     );
