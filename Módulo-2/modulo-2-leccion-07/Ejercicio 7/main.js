@@ -1,29 +1,29 @@
-"use strict";
+'use strict';
 const adalabers = [
   {
-    name: "María",
+    name: 'María',
     age: 29,
-    job: "diseñadora",
+    job: 'diseñadora',
   },
   {
-    name: "Lucía",
+    name: 'Lucía',
     age: 31,
-    job: "ingeniera química",
+    job: 'ingeniera química',
   },
   {
-    name: "Susana",
+    name: 'Susana',
     age: 34,
-    job: "periodista",
+    job: 'periodista',
   },
   {
-    name: "Rocío",
+    name: 'Rocío',
     age: 25,
-    job: "actriz",
+    job: 'actriz',
   },
   {
-    name: "Inmaculada",
+    name: 'Inmaculada',
     age: 21,
-    job: "diseñadora",
+    job: 'diseñadora',
   },
 ];
 
@@ -40,3 +40,27 @@ function averageAge() {
   return acc / adalabers.length;
 }
 console.log(averageAge());
+
+function theYoungest() {
+  let minAge = adalabers[0].age;
+  let youngest = '';
+  for (let i = 0; i < adalabers.length; i++) {
+    if (minAge > adalabers[i].age) {
+      minAge = adalabers[i].age;
+      youngest = adalabers[i].name;
+    }
+  }
+  return youngest;
+}
+console.log(theYoungest());
+
+function countDesigners() {
+  let designers = 0;
+  for (let i = 0; i < adalabers.length; i++) {
+    if (adalabers[i].job === 'diseñadora') {
+      designers += 1;
+    }
+  }
+  return designers;
+}
+console.log(countDesigners());
