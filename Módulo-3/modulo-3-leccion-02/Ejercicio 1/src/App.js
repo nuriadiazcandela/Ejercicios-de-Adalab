@@ -3,10 +3,6 @@ import logo from './images.jpg';
 import './App.css';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="Mediacard">
@@ -30,7 +26,8 @@ class App extends React.Component {
             pupitaa me cago en tus muelas diodenoo de la pradera tiene musho peligro.
           </p>
           <p>Leer más...</p>
-          <p className="heart">37 ❤︎</p>
+          <p className="heart">37</p>
+          <i class="fas fa-heart"></i>
         </main>
       </div>
     );

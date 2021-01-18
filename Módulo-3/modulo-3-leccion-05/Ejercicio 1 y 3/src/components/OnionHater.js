@@ -9,7 +9,7 @@ class OnionHater extends React.Component {
 
   handleChange(event) {
     const container = document.querySelector('.container');
-    if (event.currentTarget.value.toLowerCase().includes('cebolla')) {
+    if (event.target.value.toLowerCase().includes('cebolla')) {
       alert('ODIO LA CEBOLLA');
       container.classList.add('red');
       this.isHating = true;
