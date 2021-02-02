@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+.title {
+  text-align: center;
+}
+
+.js-list {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  align-content: center;
+  text-align: center;
+  padding-top: 30px;
+  color: blueviolet;
+}
+.js-img {
+  width: 30%;
+  flex-direction: column;
+}
+.js-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid blue;
+}
+p {
+  padding: 20px;
+  color: blue;
+}
+.js-background {
+  background-color: cadetblue;
+}
