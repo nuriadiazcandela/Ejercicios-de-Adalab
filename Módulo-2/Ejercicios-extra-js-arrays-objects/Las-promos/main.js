@@ -101,13 +101,17 @@ const studentsWorkingInGoogle = ['id-2', 'id-3', 'id-5', 'id-9'];
 //EJERCICIO 4 Pintar en pantalla los nombres de las promos y los nombres y la edad de las alumnas
 const container = document.querySelector('.js-result');
 let listPromo = '';
-let adalaberData = '';
 
+listPromo += `<ul>`;
 for (let i = 0; i < promos.length; i++) {
-  listPromo += `<li><p>Nombre: ${promos[i].name}</p>
-    </li>`;
-  for (let s = 0; s < promos[i].students.length; s++) {
-    adalaberData += `<li>${promos[i].students[s].name}, ${promos[i].students[s].age}</li>`;
+  listPromo += `<li><p>Nombre: ${promos[i].name}</p></li>`;
+  listPromo += `<ul>`;
+  for (const student of promos[i].students) {
+    console.log(student.name);
+    listPromo += `<li>${student.name}, ${student.age}</li>`;
   }
+  listPromo += `</ul>`;
 }
-container.innerHTML = `<ul><p>${listPromo}</p><ul>${adalaberData}</ul></ul>`;
+listPromo += `</ul>`;
+
+container.innerHTML = listPromo;
