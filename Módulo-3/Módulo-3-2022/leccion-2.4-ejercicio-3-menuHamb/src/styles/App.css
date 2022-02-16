@@ -1,0 +1,11 @@
+.menu {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.noHidden {
+  display: inline;
+}

@@ -1,0 +1,9 @@
+.lightMode {
+  background-color: white;
+  color: black;
+}
+
+.darkMode {
+  background-color: rgb(37, 37, 37);
+  color: whitesmoke;
+}
